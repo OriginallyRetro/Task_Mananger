@@ -25,7 +25,7 @@ def task_manager():
             case '3':
                 os.system("cls")
                 input("Program terminated")
-                sys.exit
+                sys.exit()
             case _:
                 input("Invalid choice, please try again.")
                 task_manager()
